@@ -1,13 +1,16 @@
 import streamlit as st
 
-st.title("Laça de repetição - while")
+st.title("laço de repetição - For")
+st.subheader("LOGIN")
 
 
-nota = st.number_input("Digite um nota: ", step=1)
+usuario1 = "matheus"
+senha1 = "123456"
 
-if st.button("Verificar"):
-    if nota < 0 or nota > 10:
-        st.warning("A nota de ser de 0 a 10")
-
+usuario = st.text_input("digite o nome do usuario: ")
+senha = st.text_input("digite sua senha: ",type="password")
+if st.button("ENTRAR"):
+    if usuario1 == usuario and senha1 == senha:
+        st.success(f"Bem vindo de volta!")
     else:
-        st.info(f"Nota: {nota}")
+        st.warning("login ou senha invalidos")  
