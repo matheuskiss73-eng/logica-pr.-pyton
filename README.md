@@ -15,13 +15,13 @@ gh auth login
 
 3) Clonar o repositório usado nas aulas para o computador:
 ```
-gh repo clone nome-do-repositorio
+gh repo clone logica-pr.-pyton
 ```
 
 
 4) Entrar na pasta criada com o clone do repositório:
 ```
-cd nome-do-repositorio
+cd logica-pr.-pyton
 ```
 
 5) Abrir o VSCode pelo terminal:

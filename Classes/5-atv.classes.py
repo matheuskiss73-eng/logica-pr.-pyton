@@ -4,19 +4,21 @@ from dataclasses import dataclass
 @dataclass
 class pessoa:
     nome: str
-    email: str
-    endereco: str
+    cpf: str
+    telefone: str
     
-    def mostrar_sados(self):
+    def mostrar_dados(self):
+        print("=======================================")
         print("Solicitação de Dados: ")
         print(f"Nome: {self.nome}")
-        print(f"Email: {self.email}")
-        print(f"Endereço: {self.endereco}")
+        print(f"CPF: {self.cpf}")
+        print(f"Telefone: {self.telefone}")
         
 
-    def mostrar_somente_nome(self):
+    def dados_sms_marketing(self):
+        print("=======================================")
         print("Solicitação de Dados: ")
-        print(f"Nome: {self.nome}")
+        print(f"Telefone: {self.telefone}")
         
 
 
@@ -25,14 +27,14 @@ print("Solicitando os dados")
 lista_pessoas = []
 for i in range(2):
     pessoa1 = pessoa(nome=input("Digite o seu nome: "),    
-                endereco=input("Digite o seu Endereço: "),
-                email=input("Digite a sua Email: "))
+                cpf=input("Digite o seu CPF: "),
+                telefone=input("Digite a sua Telefone: "))
     lista_pessoas.append(pessoa1)
 
 os.system("cls")
 print("Solicitação de Dados: ")
 for pessoa in lista_pessoas:
-    pessoa.mostrar_sados()
+    pessoa.mostrar_dados()
 print("=======================================")
 for pessoa in lista_pessoas:
-    pessoa.mostrar_somente_nome()
+    pessoa.dados_sms_marketing()
