@@ -1,0 +1,27 @@
+============================
+Nome do livro: dfgNome do autor: fdgd
+Categoria: dfgd
+Preço do livro: 365
+============================
+Nome do livro: gdfNome do autor: dgdf
+Categoria: 356
+Preço do livro: 4564
+============================
+Nome do livro: dghdNome do autor: dgfdg
+Categoria: 465
+Preço do livro: 4645
+============================
+Nome do livro: Dom Quixote
+Nome do autor: Miguel de Cervantes
+Categoria: Romance / Clássico da Literatura
+Preço do livro: 40.0
+============================
+Nome do livro: 1984
+Nome do autor: George Orwell
+Categoria: Ficção Distópica / Política
+Preço do livro: 30.0
+============================
+Nome do livro: Harry Potter e a Pedra Filosofal
+Nome do autor: J.K. Rowling
+Categoria: Fantasia / Literatura Juvenil
+Preço do livro: 40.0
